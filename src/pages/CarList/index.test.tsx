@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { CarList } from './index';
 
+// Deve ter carros na lista
 it('should have a list of cars', () => {
     const { container } = render(
         <MemoryRouter>
